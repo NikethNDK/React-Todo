@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.todo-container{
+    width: 80vw; /* Container width */
+    max-width: 900px; /* Optional: Limit max width */
+    background-color: rgb(159, 17, 45);
+    margin: 2rem auto; /* Center the container vertically */
+    padding: 1rem; /* Padding inside the container */
+    border-radius: 2rem;
+    color: beige;
+}
+.todo-container1{
+    margin-top: 5rem;
+    
+    width: 80vw; /* Container width */
+    max-width: 900px; /* Optional: Limit max width */
+    
+    margin: 2rem auto; /* Center the container vertically */
+    padding: 1rem; /* Padding inside the container */
+    border-radius: 0.5rem;
+    color: beige;
+}
+.header{
+    font-size: 2em;
+}
+.input{
+    width: 100%; /* Take up all available width */
+    padding: 0.5rem 1rem; /* Add padding inside input */
+    margin: 1rem 0; /* Spacing between input and other elements */
+    border: none;
+    border-radius: 1rem;
+    font-size: 1em;
+  
+}
+.List-task{
+    background-color: rgb(25, 44, 107);
+    border: 1px solid rgb(100, 89, 253);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 4px;
+}
